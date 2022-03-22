@@ -3,7 +3,7 @@ with import <nixpkgs> {};
 stdenv.mkDerivation {
   name = "dev-env";
 
-  # Will be available in shell shell
+  # Will be available in shell via PATH
   buildInputs = [
     # tooling
     pkgs.fd
