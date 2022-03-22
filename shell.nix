@@ -17,5 +17,13 @@ stdenv.mkDerivation {
     pkgs.pgcli
     pkgs.just
     pkgs.lazygit
+
+    # zsh and shell environment
+    pkgs.zsh
+    pkgs.oh-my-zsh
+    pkgs.zsh-nix-shell
+    pkgs.zsh-fzf-tab
+    pkgs.spaceship-prompt
+    pkgs.zsh-you-should-use
   ];
 }
