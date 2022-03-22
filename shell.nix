@@ -17,6 +17,8 @@ stdenv.mkDerivation {
     pkgs.pgcli
     pkgs.just
     pkgs.lazygit
+    pkgs.ripgrep
+    pkgs.just
 
     # zsh and shell environment
     pkgs.zsh
@@ -25,5 +27,7 @@ stdenv.mkDerivation {
     pkgs.zsh-fzf-tab
     pkgs.spaceship-prompt
     pkgs.zsh-you-should-use
+    pkgs.tmux
+    pkgs.jump
   ];
 }
