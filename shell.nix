@@ -19,6 +19,10 @@ stdenv.mkDerivation {
     pkgs.lazygit
     pkgs.ripgrep
     pkgs.just
+    # pkgs.sublime-merge
+    pkgs.vscodium-fhs
+    pkgs.git
+    pkgs.yarn
 
     # zsh and shell environment
     pkgs.zsh
@@ -29,5 +33,11 @@ stdenv.mkDerivation {
     pkgs.zsh-you-should-use
     pkgs.tmux
     pkgs.jump
+
+    # programming envs, compilers and runtimes
+    pkgs.nim
+    pkgs.nodejs
+    pkgs.asdf-vm
+    pkgs.nodejs-16_x
   ];
 }
