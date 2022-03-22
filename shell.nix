@@ -23,6 +23,8 @@ stdenv.mkDerivation {
     pkgs.vscodium-fhs
     pkgs.git
     pkgs.yarn
+    pkgs.sd
+    pkgs.dust
 
     # zsh and shell environment
     pkgs.zsh
