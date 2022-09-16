@@ -28,11 +28,10 @@ stdenv.mkDerivation {
 
     # zsh and shell environment
     pkgs.zsh
-    pkgs.oh-my-zsh
     pkgs.zsh-nix-shell
     pkgs.zsh-fzf-tab
-    pkgs.spaceship-prompt
     pkgs.zsh-you-should-use
+    pkgs.starship
     pkgs.tmux
     pkgs.jump
 
