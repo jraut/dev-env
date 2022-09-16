@@ -20,7 +20,7 @@ stdenv.mkDerivation {
     pkgs.ripgrep
     pkgs.just
     # pkgs.sublime-merge
-    pkgs.vscodium-fhs
+    pkgs.vscodium.fhs
     pkgs.git
     pkgs.yarn
     pkgs.sd
