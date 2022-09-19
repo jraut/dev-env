@@ -15,6 +15,7 @@ stdenv.mkDerivation {
     pkgs.httpie
     pkgs.delta
     pkgs.pgcli
+    pkgs.postgresql
     pkgs.just
     pkgs.lazygit
     pkgs.ripgrep
