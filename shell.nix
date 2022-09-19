@@ -41,5 +41,7 @@ stdenv.mkDerivation {
     pkgs.asdf-vm
     (yarn.override { nodejs = nodejs-16_x; })
     pkgs.nodejs-16_x
+    pkgs.docker
+    pkgs.docker-compose
   ];
 }
