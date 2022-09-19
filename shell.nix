@@ -39,6 +39,7 @@ stdenv.mkDerivation {
     pkgs.nim
     pkgs.nodejs
     pkgs.asdf-vm
+    (yarn.override { nodejs = nodejs-16_x; })
     pkgs.nodejs-16_x
   ];
 }
