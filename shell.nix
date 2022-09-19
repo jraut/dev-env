@@ -11,7 +11,7 @@ stdenv.mkDerivation {
     pkgs.bat-extras.prettybat
     pkgs.bat
     pkgs.tealdeer
-    pkgs.curlie
+    # pkgs.curlie
     pkgs.httpie
     pkgs.delta
     pkgs.pgcli
@@ -24,7 +24,7 @@ stdenv.mkDerivation {
     pkgs.git
     pkgs.yarn
     pkgs.sd
-    pkgs.dust
+    # pkgs.dust
 
     # zsh and shell environment
     pkgs.zsh
