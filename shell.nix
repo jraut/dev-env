@@ -21,8 +21,6 @@ stdenv.mkDerivation {
     pkgs.just
     # pkgs.sublime-merge
     pkgs.vscodium.fhs
-    pkgs.git
-    pkgs.yarn
     pkgs.sd
     # pkgs.dust
 
@@ -43,5 +41,7 @@ stdenv.mkDerivation {
     pkgs.nodejs-16_x
     pkgs.docker
     pkgs.docker-compose
+    pkgs.git
+    pkgs.yarn
   ];
 }
