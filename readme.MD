@@ -16,3 +16,6 @@ https://www.uglydirtylittlestrawberry.co.uk/posts/using-nvm-with-yarn-nix-shells
 > "The desired outcome is to not have a node installation built into the Nix shell so that NVM’s managed installations are picked up from outside of the shell. To achieve this I modified my shell.nix file to look like this..."
 
 Instead I removed nodejs and yarn from nix for now.
+    - Use NVM for node management, installed directly to os instead of nix
+    - NVM pulls yarn, as it is listed as a default dependency in .nvm/default-packages and is thus pulled
+    
