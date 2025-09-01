@@ -7,7 +7,7 @@ Currently, the default nix env has been build according to https://sandstorm.de/
 # First installation (nix)
 - change directory to this folder
 - `nix profile install .` to install the flake of local global deps (verify with `nix profile list`)
-- `nix profile upgrade 0` to upgrade the installation
+- `nix profile upgrade dev-env` to upgrade the installation
 
 ## NODE.JS
 
