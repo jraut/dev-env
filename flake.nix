@@ -11,9 +11,6 @@
       name = "home-packages";
       paths = with pkgs; [
 
-        # general tools
-        git
-
 		# ... add your tools here
  
     # tooling
@@ -32,6 +29,7 @@
    lazygit
    ripgrep
    just
+
     # sublime-merge unfree
    sd
     #dust
@@ -60,7 +58,12 @@
    nim
    docker
    git
-   # nodejs manage outside of nix to use nvm
+   jujutsu
+   cmake
+
+    
+
+   # nodejs manage outside of nix to use nvm - see https://www.uglydirtylittlestrawberry.co.uk/posts/using-nvm-with-yarn-nix-shells/
    # yarn manage outside of nix to use nvm
     # (yarn.override { nodejs = null; })
 
