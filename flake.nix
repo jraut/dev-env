@@ -34,17 +34,18 @@
    sd
     #dust
 
-    # zsh and shell environment
+    # zsh, shell environment, osx utils etc
    starship
    tmux
    jump
-
-   # osx utils etc
    rectangle # resize windows
    iterm2
-   starship
+
+   # browsers, web
    brave
    firefox
+  #  ungoogled-chromium 
+
    # arc-browser unfree
    # spotify unfree
    # slack unfree
@@ -69,8 +70,6 @@
 
    # ai
    ollama
-
-
        ];
     };
   };
