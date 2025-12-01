@@ -61,8 +61,7 @@
    git
    jujutsu
    cmake
-
-    
+  alejandra # nix source code formatter  
 
    # nodejs manage outside of nix to use nvm - see https://www.uglydirtylittlestrawberry.co.uk/posts/using-nvm-with-yarn-nix-shells/
    # yarn manage outside of nix to use nvm
