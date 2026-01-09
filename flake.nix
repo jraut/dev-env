@@ -57,6 +57,7 @@
 
     # programming envs, compilers and runtimes
    nim
+   uv 
    docker
    git
    jujutsu
