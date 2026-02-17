@@ -2,14 +2,44 @@
 
 Currently, the default nix env has been build according to https://sandstorm.de/blog/posts/my-first-steps-with-nix-on-mac-osx-as-homebrew-replacement/
 
+It uses Nix Profile and Flakes. 
+
 ## Howto
 
-# First installation (nix)
-- change directory to this folder
-- `nix profile install .` to install the flake of local global deps (verify with `nix profile list`)
+### First installation (nix)
+```
+nix profile install .
+```
 
-# Changes to current profile (nix)
-- `nix profile upgrade dev-env` to upgrade the installation
+Change directory to the folder containing these files and run the above to install the flake of local global deps 
+
+### Verify the profile installation
+
+```
+nix profile list
+```
+
+### Upgrade to the Changes to current profile (nix)
+
+```
+nix profile upgrade dev-env
+```
+
+To fetch newly added packages to the profile. Writes the package versions to a lockfile `flakes.lock`.
+
+### Update Flake Input (package versions in flake.lock)
+
+```
+nix flake update
+```
+
+This command updates the `flake.lock` file, which contains the version information for the inputs used in your flake. 
+
+After updating the flake inputs, apply the changes to your system configuration with either upgrading (see above) or with:
+
+```
+sudo nixos-rebuild switch --flake .
+```
 
 ## NODE.JS
 
