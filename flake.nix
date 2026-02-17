@@ -70,6 +70,7 @@
 
    # ai
    ollama
+   claude-code
        ];
     };
   };
