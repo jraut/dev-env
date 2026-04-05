@@ -25,6 +25,7 @@
    difftastic
    pgcli
    postgresql
+   pgadmin4
    just
    lazygit
    ripgrep
@@ -71,6 +72,7 @@
    # ai
    ollama
    claude-code
+   github:akitaonrails/ai-jail
        ];
     };
   };
