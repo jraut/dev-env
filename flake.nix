@@ -47,11 +47,11 @@
           # browsers, web
           brave
           firefox
-          #  ungoogled-chromium
+          # ungoogled-chromium
 
           # arc-browser unfree
           # spotify unfree
-          # slack unfree
+          slack
           slackdump
 
           # editors tools code
