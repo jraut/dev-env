@@ -33,7 +33,7 @@
           ripgrep
           just
 
-          # sublime-merge unfree
+          # sublime-merge
           sd
           #dust
 
@@ -57,6 +57,7 @@
           # editors tools code
           zed-editor
           vscodium
+          obsidian
 
           # programming envs, compilers and runtimes
           nim
