@@ -67,6 +67,8 @@
           jujutsu
           cmake
           alejandra # nix source code formatter
+          bun
+          qemu
 
           # nodejs manage outside of nix to use nvm - see https://www.uglydirtylittlestrawberry.co.uk/posts/using-nvm-with-yarn-nix-shells/
           # yarn manage outside of nix to use nvm
@@ -76,6 +78,7 @@
           ollama
           claude-code
           github:akitaonrails/ai-jail
+          tesseract
         ];
       };
   };
