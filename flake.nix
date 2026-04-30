@@ -69,6 +69,7 @@
           alejandra # nix source code formatter
           bun
           qemu
+          go
 
           # nodejs manage outside of nix to use nvm - see https://www.uglydirtylittlestrawberry.co.uk/posts/using-nvm-with-yarn-nix-shells/
           # yarn manage outside of nix to use nvm
@@ -79,6 +80,7 @@
           claude-code
           github:akitaonrails/ai-jail
           tesseract
+          mcp-nixos
         ];
       };
   };
