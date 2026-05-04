@@ -28,8 +28,9 @@
           difftastic
           pgcli
           postgresql
-          sqlite
           pgadmin4
+          sqlite
+          litecli
           lazygit
           ripgrep
           just
@@ -61,7 +62,7 @@
 
           # programming envs, compilers and runtimes
           lua
-          rust
+          rustc
           nim
           bun
           go
@@ -77,9 +78,9 @@
           #coreutils
           uv
           pipx
+          python315
 
           qemu
-          gimp
 
           # audio
           musescore
