@@ -16,6 +16,7 @@
           # ... add your tools here
 
           # tooling
+          eza
           fd
           jq
           bat-extras.prettybat
@@ -27,14 +28,15 @@
           difftastic
           pgcli
           postgresql
+          sqlite
           pgadmin4
-          just
           lazygit
           ripgrep
           just
+          tealdeer
 
-          # sublime-merge
           sd
+          #sublime-merge  - not available on silicon
           #dust
 
           # zsh, shell environment, osx utils etc
@@ -47,10 +49,8 @@
           # browsers, web
           brave
           firefox
-          # ungoogled-chromium
+          #ungoogled-chromium - not available on silicon
 
-          # arc-browser unfree
-          # spotify unfree
           slack
           slackdump
 
@@ -60,16 +60,31 @@
           obsidian
 
           # programming envs, compilers and runtimes
+          lua
+          rust
           nim
-          uv
+          bun
+          go
+          deno
+          elixir
+          erlang
           docker
           git
           jujutsu
           cmake
           alejandra # nix source code formatter
-          bun
+          #cmake
+          #coreutils
+          uv
+          pipx
+
           qemu
-          go
+          gimp
+
+          # audio
+          musescore
+          rubberband
+          sox
 
           # nodejs manage outside of nix to use nvm - see https://www.uglydirtylittlestrawberry.co.uk/posts/using-nvm-with-yarn-nix-shells/
           # yarn manage outside of nix to use nvm
@@ -79,7 +94,6 @@
           ollama
           claude-code
           github:akitaonrails/ai-jail
-          tesseract
           mcp-nixos
         ];
       };
